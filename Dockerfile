@@ -5,7 +5,7 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copia tu archivo HTML al contenedor
-COPY index.html /usr/share/nginx/html/
+COPY web.html /usr/share/nginx/html/
 
 # Expone el puerto 80
 EXPOSE 8000
