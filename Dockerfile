@@ -8,4 +8,4 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY web.html /usr/share/nginx/html/
 
 # Expone el puerto 80
-EXPOSE 8000
+EXPOSE 80
